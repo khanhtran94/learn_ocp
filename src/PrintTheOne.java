@@ -26,6 +26,7 @@ public class PrintTheOne {
         OnlyOne firstCall = OnlyOne.ONCE;  // prints constructing,
         OnlyOne secondCall = OnlyOne.ONCE; // doesn't print anything
         System.out.print("end");
+        System.out.println("--");
         Season a = Season.FALL;
         System.out.println(a.getHours());
     }

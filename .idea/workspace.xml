@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c71b506-a7a0-4304-85cc-0ec14c95b0ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Panda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintTheOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Outer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCP/PrintTheOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCP/PrintTheOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintTheOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintTheOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Outer">
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Outer" />
+      <module name="OCP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintTheOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintTheOne" />
       <module name="OCP" />
@@ -49,6 +56,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer" />
         <item itemvalue="Application.PrintTheOne" />
       </list>
     </recent_temporary>
@@ -63,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676001990423</updated>
-      <workItem from="1676001992260" duration="1112000" />
+      <workItem from="1676001992260" duration="2727000" />
     </task>
     <servers />
   </component>
@@ -71,25 +79,56 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1676105682441">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1676114416608">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1676105682441" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1676105682441">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1676114416608" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1676114416608">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1676105682441" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1676105682440">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1676114416608" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1676114416608">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1676105682440" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1676105682441">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1676114416608" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1676114416608">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1676105682441" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1676114416608" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1676106112415">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1676106112415" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1676106112415">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1676106112415" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1676106112414">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1676106112414" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1676106112415">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1676106112415" />
+    <state x="312" y="186" width="816" height="550" key="find.popup" timestamp="1676114409770">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="312" y="186" width="816" height="550" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1676114409770" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1676105653555">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1676105653555" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PrintTheOne.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
